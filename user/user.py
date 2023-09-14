@@ -8,4 +8,5 @@ class User:
     def __init__(self, name: str, cards:List = None) -> None:
         self.name = name
         self.cards = cards
+        self.points = 0
 
