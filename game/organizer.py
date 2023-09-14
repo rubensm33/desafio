@@ -4,7 +4,7 @@ from user.user import User
 
 
 class Organizer:
-    """Class responsible to converts data from DeckAPI
+    """Class responsible to handler data from DeckAPI
     """
     def __init__(self, user: User, deck_api: DeckAPI) -> None:
         self.user = user

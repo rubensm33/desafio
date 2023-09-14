@@ -1,7 +1,7 @@
 import json
 
 from api_deck.api_deck import DeckAPI
-from game.game import Organizer
+from game.organizer import Organizer
 from user.user import User
 from core import constants
 
